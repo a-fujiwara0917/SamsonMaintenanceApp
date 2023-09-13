@@ -9,7 +9,7 @@ self.addEventListener("install", (event) => {
         "/",
         "/manifest.json",
         "/css/style.css",
-        "/js/serviceworker.js",
+        "/serviceworker.js",
         "/js/count.js",
       ]);
     })()
