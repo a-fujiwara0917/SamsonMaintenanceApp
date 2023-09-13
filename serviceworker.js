@@ -6,7 +6,7 @@ self.addEventListener("install", (event) => {
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll([
-        "/",
+        "/index.html",
         "/manifest.json",
         "/css/style.css",
         "/serviceworker.js",

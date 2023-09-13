@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
 
-    <link rel="shortcut icon" href="./images/favicon.ico" />
     <!-- iosのアイコン設定 -->
     <link rel="apple-touch-icon" href="./images/icon.jpg" sizes="192x192" />
     <!-- iosのスプラッシュ画面設定 -->
@@ -59,7 +58,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker
-          .register("/serviceworker.js")
+          .register("./serviceworker.js")
           .then(function (registration) {
             console.log(
               "ServiceWorker registration successful with scope: ",
