@@ -6,11 +6,11 @@ self.addEventListener("install", (event) => {
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll([
-        "/",
-        "/manifest.json",
-        "/css/style.css",
-        "/js/serviceworker.js",
-        "/js/count.js",
+        "../",
+        "../manifest.json",
+        "../css/style.css",
+        "../js/serviceworker.js",
+        "../js/count.js",
       ]);
     })()
   );
