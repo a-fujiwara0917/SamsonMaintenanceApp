@@ -1,11 +1,5 @@
 const CACHE_NAME = `temperature-converter-v1`;
-var urlsToCache = [
-  "/index.html",
-  "/manifest.json",
-  "/css/style.css",
-  "/serviceworker.js",
-  "/js/count.js",
-];
+var urlsToCache = ["/", "/css/style.css", "/js/count.js"];
 
 // Use the install event to pre-cache all initial resources.
 self.addEventListener("install", (event) => {
