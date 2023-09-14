@@ -1,4 +1,4 @@
-const CACHE_NAME = `temperature-converter-v1`;
+const CACHE_NAME = `temperature-converter-v1.0.0`;
 var urlsToCache = ["/", "/css/style.css", "/js/count.js"];
 
 // Use the install event to pre-cache all initial resources.
